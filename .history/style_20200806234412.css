@@ -1,0 +1,103 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: whitesmoke;
+}
+.hero-shadow {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+  z-index: -1;
+}
+.orange-color {
+  color: red;
+}
+/* NAVOGACJA */
+.navbar-brand {
+  font-size: 2.2rem;
+  font-weight: bold;
+}
+nav .navbar-nav,
+nav .fa-bars {
+  font-size: 1.8rem;
+  text-transform: uppercase;
+}
+nav .fa-bars {
+  padding: 1rem 5rem;
+}
+/* HEADER */
+header {
+  position: relative;
+  height: 75rem;
+  background-image: url("./img/foto.jpg");
+  background-position: center;
+  background-size: cover;
+  z-index: 0;
+  color: whitesmoke;
+}
+header .btn {
+  padding: 1rem 2rem;
+  font-size: 1.4rem;
+  text-decoration: uppercase;
+}
+.header-text {
+  font-size: 2.2rem;
+  color: rgb(219, 18, 18);
+}
+/* ABOUTUS */
+.about-boxes h3 {
+  font-size: 2.4rem;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.about-icon {
+  font-size: 3rem;
+}
+#aboutus .btn-link {
+  font-size: 1.8rem;
+}
+#aboutus .card-body {
+  font-size: 1.5rem;
+}
+.card-text {
+  font-size: 1.5rem;
+}
+/* TEAM */
+#team {
+  padding: 8rem 0;
+  background-color: rgb(248, 248, 248);
+}
+#team .card-img-top {
+  height: 380px;
+  object-fit: cover;
+}
+/* KONTAKT */
+#contact h3 {
+  font-weight: bold;
+  font-size: 2.2rem;
+  text-transform: uppercase;
+  margin-bottom: 1.5rem;
+}
+#contact .contact-info .fas {
+  margin-right: 0.5rem;
+  font-size: 2rem;
+  font-weight: bold;
+}
+#contact .submit-btn {
+  font-size: 1.6rem;
+}
+#contact .input-group > .custom-select:not(:first-child),
+#contact .input-group > .form-control:not(:first-child) {
+  height: calc(1.5em + 2rem + 2px);
+}
